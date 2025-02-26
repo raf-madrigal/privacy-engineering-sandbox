@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "grail"
+version = "0.1.0"
+description = "GCash Responsible AI Library"
+authors = ["renzoleru.benemerito <renzoleru.benemerito@gcash.com>", "antonmiguel.castillo <antonmiguel.castillo@gcash.com>", "edwardvincent.duero <edwardvincent.duero@gcash.com>", "ikeenaneliot.mayuga <ikeenaneliot.mayuga@gcash.com>", "leoisaiah.yapiii <leoisaiah.yapiii@gcash.com>", "kenley.tan <kenley.tan@gcash.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository="https://gitlab2.mynt.xyz/data-office/ml-engineering/standard-libraries/grail"
+keywords = ["grail", "ethics", "fairness"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+scipy = "^1.14.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+nbdev = "^2.3.31"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

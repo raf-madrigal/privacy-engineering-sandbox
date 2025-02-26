@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "grail"
+  site-url: "https://standard-libraries.github.io/grail"
+  description: "GCash Responsible AI Library"
+  repo-branch: main
+  repo-url: "https://github.com/standard-libraries/grail"
